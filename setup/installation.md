@@ -5,6 +5,7 @@ This guide will walk you through setting up a complete development environment w
 ## 1. Installing Python
 
 ### Check if Python is Already Installed
+**Note:** All commands must be run in CLI / Command Prompt (available in Start screen)
 ```bash
 python --version
 ```
@@ -66,7 +67,7 @@ brew install python
 ```bash
 git --version
 ```
-If your git version is printed, goto step 4.
+If your git version is printed, skip this step.
 
 ### Installation Steps
 
