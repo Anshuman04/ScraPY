@@ -8,7 +8,7 @@ This guide will help you setup the tutorial repository that we will use submitti
 
 - Select a location where all the tutorial files will be added. We will call this $LEARN_SPACE in this doc
 - Open Cmd prompt and traverse to learn space by running `cd <$LEARN_SPACE>`
-- Run Cmd: `git clone git@github.com:Anshuman04/ScraPY.git`
+- Run Cmd: `git clone https://github.com/Anshuman04/ScraPY.git`
 
 You will see a new folder created inside `$LEARN_SPACE`, which is named `ScraPy`
 
@@ -77,5 +77,19 @@ You should see below output or similar
 ```bash
 Hi <Username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
+If you observed the above output successfully, skip remaining steps.
+
+## 8. Fix E2E setup
+
+- Open Powershell as administrator (Window Key [⊞] -> Type PowerShell -> Right Click and run as administrator)
+- Run following commands on Powershell:
+    - `Set-Service -Name ssh-agent -StartupType Manual`
+    - `Start-Service ssh-agent`
+    - `Get-Service ssh-agent`
+    - You must see `Running` in the output of last command
+- Run following commands back on VS Code Terminal
+    - `ssh-add $USER\.ssh\id_ed25519_github`. **Remember to replace $USER**
+- Try step #7 on VS Code terminal
 
 **Congratulations!! Your repository is now fully setup.**
