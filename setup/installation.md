@@ -73,6 +73,7 @@ If your git version is printed, skip this step.
 
 #### Windows
 1. Go to [git-scm.com](https://git-scm.com/)
+5. This is assignment 1
 2. Download Git for Windows
 3. Run installer with default settings
 4. Verify installation:
