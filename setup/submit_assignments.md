@@ -1,4 +1,4 @@
-# Repository Setup Guide
+# Submission Guide
 
 This guide will provide you details on how to submit the assignments
 
