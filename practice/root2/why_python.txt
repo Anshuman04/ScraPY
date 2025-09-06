@@ -1,0 +1,4 @@
+I want to learn Python to be able to extend my scientific skillset beyond benchwork. 
+As an immunology student working with high-dimensional flow cytometry and scRNA seq dataset,
+ I want to be able to independently analyze and understand the experimental dataset I am generating with a better standard of reproducibility. 
+ I am hoping Python makes it easier to organize, analyze, and visualize my results compared to manual methods. 
