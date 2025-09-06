@@ -1,0 +1,3 @@
+Why do you want to learn Python?
+    I want to learn python because I need to explore more bioinformatics for the data analysis part of my project. So learning python would help me in 
+    running those scripts and generating data without having to bother Anshuman again & again. 
