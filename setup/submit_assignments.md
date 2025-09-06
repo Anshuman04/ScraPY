@@ -2,7 +2,7 @@
 
 This guide will provide you details on how to submit the assignments
 
-All commands must be run from ScraPY folder.
+All commands must be run from ScraPY folder (on the terminal).
 
 ---
 
@@ -18,7 +18,7 @@ All commands must be run from ScraPY folder.
 - Run Cmd: `git pull`
 
 ## 3. Create a new local branch for your assignment
-- Decide a name for your local branch. It must start with your name and then explanation separated by hyphens
+- Decide a name for your local branch and use that name for the next command. It must start with your name and then explanation separated by hyphens
     - Ex: `agaharwar-intro-ass-1`. Choose your own name for every assignment and replace `agaharwar-intro-ass-1` for below commands
 - Run `git checkout -b agaharwar-intro-ass-1`. **Remember to replace branch name**
 
@@ -34,8 +34,11 @@ All commands must be run from ScraPY folder.
     ```
 
 ## 5. Upload your assignment
-- Add your files separated by spaces like:
-    - `git add setup/submit_assignments.md some\other\file.py`
+- Run `git status` and copy the output 
+- Add your files with the following command:
+    - `git add setup/submit_assignments.md` 
+    If you have multiple files in an assignment, you can upload them by separating the file names with spaces. So use the following commands for that: 
+    - `git add setup/submit_assignments.md file2.py`
     - **NOTE:** File Paths are relative. You can copy paste from `git status` output
 - Choose a one line message describing the assignment
 - Run `git commit -m "Introduction Assignment"`. **Remember to choose your own message**
