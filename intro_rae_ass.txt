@@ -1,0 +1,7 @@
+Intro Assignment
+My name is Atrayee, and this is my first assignment.
+Learning python because :
+1. I like snakes 
+2. I want to create my own hobby projects
+3. Also learning together is a cool form of community 
+4. Can troubleshoot at work better, expecially for cool genomics shit 
