@@ -91,7 +91,7 @@ print(0.1 + 0.2 == 0.3)
 ```python
 var1 = "True"
 var2 = "False"
-print(f{bool(var1) == bool(var2)})
+print(f'{bool(var1) == bool(var2)}')
 ```
 
 ## 16.
@@ -103,7 +103,7 @@ print(bool("True") * 3)
 ```python
 var1 = "True"
 var2 = "False"
-print(f{bool(var1) == bool(var2) * 3})
+print(f"{bool(var1) == bool(var2) * 3}")
 ```
 
 ## 18.
@@ -135,7 +135,7 @@ print("Anshuma\n is a good \\tutor")
 ```python
 msg = "He said: \"I don't know what 'print(\"Hello\")' means!\""
 rep = 'She replied: \'It prints "Hello" to the screen.\''
-print(f'Question: {msg}\nAnswer: {var}')
+print(f'Question: {msg}\nAnswer: {rep}')
 ```
 
 ## 24.
