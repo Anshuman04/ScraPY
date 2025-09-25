@@ -13,7 +13,7 @@
 
 ## Playing with Lists
 - When user selects `Playing with lists` from Main Menu, below menu will get printed:
-    '''bash
+    ```bash
         #### LISTS - SUB-MENU ####
          1. Enter a new list
          2. Search an element in a list
@@ -22,7 +22,7 @@
          5. Remove element from a list
          6. Reverse a list
          7. Exit
-    '''
+    ```
 - NOT ALLOWED IN-BUILT FUNCTIONS: `append`, `clear`, `count`, `extend`, `index`, `insert`, `pop`, `remove`, `reverse`, `sort`
 - See below to understand working of each
 
