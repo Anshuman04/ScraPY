@@ -53,13 +53,14 @@ while choice < 5:
         print("\n  Thank you for choosing my calculator!")
         break
 
-    elif 0<choice<6:
+    elif 0<choice<5:
         first_num = int(input("Enter first number: "))
         second_num = int(input("Enter second number: "))
 
     else:
         print("\n Invalid choice, choose again!")
         choice = 0
+        continue
     
     if choice == 1:
         result = first_num + second_num
@@ -76,13 +77,13 @@ while choice < 5:
     elif choice == 4:
         if second_num != 0:
             quotient = first_num // second_num
-            reminder = first_num % second_num
-            print(f"Dividing {first_num} by {second_num} gives quotient as {quotient} and reminder as {reminder}.")
+            remainder = first_num % second_num
+            print(f"Dividing {first_num} by {second_num} gives quotient as {quotient} and reminder as {remainder}.")
         else:
             print("Division by 0 is not allowed")
             continue
     
-    print(f"Btw, Your addition was {first_num + second_num} and division is {quotient} Lets do more calculations")
+    #print(f"Btw, Your addition was {first_num + second_num} and division is {quotient} Lets do more calculations")
     
    
 
