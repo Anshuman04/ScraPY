@@ -1,0 +1,57 @@
+1.
+Hello, World!
+2.
+int
+3.
+Result: 5
+4.
+First Line
+ Second Line
+5.
+YOYO
+6.
+
+7.
+ERROR
+ERROR
+8.
+HiHi
+Ha  Ha
+9.
+TRUE
+10.
+TRUE
+11.
+TRUE
+12.
+123
+FALSE
+13.
+TRUE
+14.
+FALSE
+15.
+ERROR
+16.
+TRUETRUETRUE
+17.
+ERROR
+18.
+TRUE
+19.
+ERROR
+20.
+ERROR
+21.
+ERROR
+22.
+Anshuma
+ is a good \    tutor
+23.
+ERROR
+24.
+ERROR
+DID it work?
+25.
+Welcome
+ Anshu
