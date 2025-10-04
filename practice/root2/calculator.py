@@ -17,6 +17,6 @@ while True:
     elif option == "Division" or option == "4" or option == "div" or option == "Div" or option == "division":
         if var2 == 0:
             print ("Division by zero is not allowed")
+            continue
         else:
             print(f"Dividing {var1} by {var2} gives {var1 // var2} as quotient and {var1 % var2} as remainder")
-    
