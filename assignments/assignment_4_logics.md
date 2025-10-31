@@ -176,7 +176,7 @@ When this option is selected,
     - `Which string you want to print?: <Print names of all created strings till now>`
 - Print the contents of the strings selected. **Remember the list printed here should be updated with all the user operations done before.**
 
-## Playing with Lists
+## Patterns
 - When user selects `Patterns` from Main Menu, below menu will get printed:
     ```bash
         #### PATTERNS - SUB-MENU ####
