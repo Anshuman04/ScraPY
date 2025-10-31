@@ -175,3 +175,213 @@ When this option is selected,
 - Ask user which string they want to print
     - `Which string you want to print?: <Print names of all created strings till now>`
 - Print the contents of the strings selected. **Remember the list printed here should be updated with all the user operations done before.**
+
+## Playing with Lists
+- When user selects `Patterns` from Main Menu, below menu will get printed:
+    ```bash
+        #### PATTERNS - SUB-MENU ####
+         1. Cross
+         2. Downhill
+         3. Uphill
+         4. Shadow Cross
+         5. Water Drain
+         6. Exit
+    ```
+- For all the patterns, assume that user will provide odd number of rows
+
+### Cross
+When this option is selected,
+- Ask the user for number of rows:
+    - `Number of rows: <User will enter an odd number here>`
+- Print as per following rule:
+    - When `rows=3`:
+        ```
+        X X
+         X 
+        X X       
+        ```
+    - When `rows=5`:
+        ```
+        X   X
+         X X 
+          X  
+         X X 
+        X   X
+        ```
+    - And so on...
+
+### Downhill
+When this option is selected,
+- Ask the user for number of rows:
+    - `Number of rows: <User will enter an odd number here>`
+- Print as per following rule:
+    - When `rows=3`:
+        ```
+        |  
+        |\ 
+        |\\       
+        ```
+    - When `rows=5`:
+        ```
+        |    
+        |\    
+        |\\    
+        |\\\ 
+        |\\\\
+        ```
+    - And so on...
+
+### Uphill
+When this option is selected,
+- Ask the user for number of rows:
+    - `Number of rows: <User will enter an odd number here>`
+- Print as per following rule:
+    - When `rows=3`:
+        ```
+          |  
+         /|
+        //|       
+        ```
+    - When `rows=5`:
+        ```
+            |
+           /|
+          //|
+         ///|
+        ////| 
+        ```
+    - And so on...
+
+### Shadow Cross
+When this option is selected,
+- Ask the user for number of rows:
+    - `Number of rows: <User will enter an odd number here>`
+- Print as per following rule:
+    - When `rows=3`:
+        ```
+        X X
+        XXX 
+        X X       
+        ```
+    - When `rows=5`:
+        ```
+        X   X
+        XX XX
+        XXXXX  
+        XX XX
+        X   X
+        ```
+    - When `rows=7`:
+        ```
+        X     X
+        XX   XX
+        XXX XXX  
+        XXXXXXX
+        XXX XXX
+        XX   XX
+        X     X
+        ```
+    - And so on...
+
+### Water Drain
+Assume, that you are looking at the floor from top, which has water spilled all over.
+You need to make the pattern of water flowing into the drain.
+
+When this option is selected,
+- Ask the user for number of rows:
+    - `Number of rows: <User will enter an odd number here>`
+- Ask the user for location of the drain:
+    - `Enter row number for the drain: <user will enter a number here>`
+    - `Enter col number for the drain: <user will enter a number here>`
+
+Printing must be done as per below examples:
+#### Example 1:
+- Number of rows = 5
+- Row number of the drain = 2
+- Col number of the drain = 2
+
+```
+\\|//
+\\|//
+--O--
+//|\\
+//|\\
+```
+- Drain must be printed using the character capital "O"
+- As you can see, the drain is located at (2,2)
+- At all the remaining locations, is the direction of the flow of water
+
+#### Example 2:
+- Number of rows = 5
+- Row number of the drain = 1
+- Col number of the drain = 3
+
+```
+\\\|/
+---O-
+///|\
+///|\
+///|\
+```
+- Drain must be printed using the character capital "O"
+- As you can see, the drain is located at (1,3)
+- At all the remaining locations, is the direction of the flow of water
+
+**Remember: Drain can lie outside of grid**
+
+#### Example 3:
+- Number of rows = 5
+- Row number of the drain = 5
+- Col number of the drain = 5
+
+```
+\\\\\
+\\\\\
+\\\\\
+\\\\\
+\\\\\
+      O
+```
+- Drain must be printed using the character capital "O"
+- As you can see, the drain is located at (1,3)
+- At all the remaining locations, is the direction of the flow of water
+- **Even if drain is located outside of the grid, it must be printed at the right location**
+
+**Remember: Location of drain can have negative numbers**
+#### Example 4:
+- Number of rows = 5
+- Row number of the drain = -1
+- Col number of the drain = -1
+
+```
+O
+ \\\\\
+ \\\\\
+ \\\\\
+ \\\\\
+ \\\\\
+```
+- Drain must be printed using the character capital "O"
+- As you can see, the drain is located at (1,3)
+- At all the remaining locations, is the direction of the flow of water
+- **Even if drain is located outside of the grid, it must be printed at the right location**
+
+#### Example 5
+This example covers a complex case, where:
+- Drain location is outside the grid
+- Location has negative numbers
+- Different flow of water in the grid
+
+Below is the example:
+- Number of rows = 5
+- Row number of the drain = 2
+- Col number of the drain = -2
+
+```
+  /////
+  /////
+O -----
+  \\\\\
+  \\\\\
+```
+
